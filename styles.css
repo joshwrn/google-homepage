@@ -1,0 +1,153 @@
+.header {
+  padding: 6px;
+}
+
+.rightHeader {
+  float: right;
+  display: flex;
+  align-items: center;
+  padding: 6px 0px 10px 0px;
+  position: relative; right: 10px;
+}
+
+.right {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+
+.profile {
+  margin: 0px 0px 0px 27px;
+  border-radius: 100px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.space {
+  margin: auto;
+}
+
+.logoDiv {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 30px 0px;
+}
+
+.logo {
+  width: 22%;
+}
+
+#search:hover {
+  filter: drop-shadow(0px 2px 2px #d4d4d4);
+}
+
+  #search {
+  justify-content: center;
+  display: flex;
+  width: 37%;
+  background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.searchBtn:hover {
+  filter: drop-shadow(0px 1px 1px #d4d4d4);
+  border: 1px solid #d4d4d4;
+}
+
+.buttons {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+.searchBtn {
+  justify-content: center;
+  display: flex;
+  margin: 25px 5px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  padding: 10px 16px;
+}
+
+.footer {
+  display: flex;
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+  color: #70757a;
+  left:0;
+}
+
+
+
+.footer-box-1 {
+  flex: 1;
+  
+}
+
+.fleft {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    align-items: center;
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.footer-box-2 {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.fmText {
+
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    display: block;
+    display: inline-block;
+    margin: 20px 10px 0px 0px;
+}
+
+.leaf {
+    margin: 0px 0px -2px 0px;
+    height: 14px;
+}
+
+.footer-box-3 {
+  flex: 1;
+  margin: 0px 20px 0px 0px;
+}
+
+.frText {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    display: inline-block;
+    margin: 20px 10px;
+    float: right;
+}
+
